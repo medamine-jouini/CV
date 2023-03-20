@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project 01 - CV</title>
+</head>
+<body>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Yantramanav:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    
+   <!-- Photo -->
+   <section class="photo">
+        <img class="profile-pic" src="img/jouini.jpg" alt="medamine-jouini" width="200">
+        <h1 id="name">Mohamed Amine Jouini</h1>
+        <h2>Architect | Future Web Developer</h2>
+    </section>
+
+    <!-- About me -->
+    <section class="about-me">
+        <H1>About me</H1>
+        <p>As an architect with a passion for web development, I am currently broadening my skills in front-end development through self-study online courses and personal projects. <br><br> My background in design, project management, and collaboration enables me to approach the creation of engaging and user-friendly interfaces from a unique perspective. <br><br> I have acquired a strong foundation in front-end web development skills, including HTML and CSS, and I am highly motivated to acquire expertise in JavaScript to create more dynamic and interactive web experiences. <br><br> I am enthusiastic about advancing in the field and seeking new opportunities to leverage my skills and experience to design exceptional web experiences for users.</p>
+    </section>
+    <br>
+
+    <nav>
+        <ul>
+            <li><a href="experience.html" target=”_blank”>Experience</a></li>
+            <li><a href="education.html" target=”_blank”>Education</a></li>
+            <li><a href="skills.html" target=”_blank”>Skills</a></li>
+            <li><a href="certifications.html" target=”_blank”>Certifications</a></li>
+        </ul>
+    </nav>
+    <br>
+
+    <!-- Contact -->
+    <footer class="contact">
+            <form action="mailto:medamine.jouini@outlook.com" method="post" target="_blank" enctype="text/plain">
+                <H1>Contact</H1>
+                <table>
+                    <tr>
+                        <table>
+                            <tr>
+                                <td><label for="name">Your Name</label></td>
+                                <td><input type="text" name="name" placeholder="John Doe"></td>
+                            </tr>
+                            <tr>
+                                <td><label for="email">Your e-mail</label></td>
+                                <td><input type="email" name="email" placeholder="email@address.com" required autocomplete="on"></td>
+                            </tr>
+                        </table>
+                    <br>
+                    </tr>
+                    <tr>
+                        <td><label for="message">Your message <br></label></td>
+                    </tr>
+                    <br>
+                    <tr>
+                        <td><textarea id="message" name="message" rows="5" cols="33" placeholder="Write your message"></textarea></td>
+                    </tr>
+                </table>
+                <br>
+                <input type="submit" name="submit">
+            </form>
+    </footer>
+</body>
+</html>
